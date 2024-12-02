@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Inter-SemiBold";
+    font-weight: 600;
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Inter-Light";
+    font-weight: 400;
+    src: url('../fonts/Inter-Medium.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Inter-Medium";
+    font-weight: 500;
+    src: url('../fonts/Inter-Medium.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Lato-Medium";
+    font-weight: 500;
+    src: url('../fonts/Lato-Medium.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Lato-Regular";
+    font-weight: 600;
+    src: url('../fonts/Lato-Regular.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Lato-Light";
+    font-weight: 600;
+    src: url('../fonts/Lato-Light.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: "Lato-Bold";
+    font-weight: 600;
+    src: url('../fonts/Lato-Bold.ttf') format('truetype'); 
+}

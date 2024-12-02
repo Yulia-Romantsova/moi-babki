@@ -1,0 +1,175 @@
+.font_SemiBold {
+    font-weight: 600;
+    font-family: 'Inter-Semibold';
+}
+
+.font_inter-Medium {
+    font-weight: 500;
+    font-family: 'Inter-Medium';
+}
+
+.font_inter-Light {
+    font-weight: 400;
+    font-family: 'Inter-Light';
+}
+
+.font_Lato-Regular {
+    font-weight: 600;
+    font-family: 'Lato-Medium';
+}
+
+.font_Lato-Medium {
+    font-weight: 500;
+    font-family: 'Lato-Medium';
+}
+
+.font_Lato-Light {
+    font-weight: 600;
+    font-family: 'Lato-Light';
+}
+
+.font_Lato-Bold {
+    font-weight: 600;
+    font-family: 'Lato-Bold';
+}
+
+.font-size_0-8rem {
+    font-size: 0.8rem;
+}
+
+.font-size_1rem {
+    font-size: 1rem;
+}
+
+.font-size_1-2rem {
+    font-size: 1.2rem;
+}
+
+.font-size_1-5rem {
+    font-size: 1.5rem;
+}
+
+.font-size_1-7rem {
+    font-size: 1.7rem;
+}
+
+.font-size_2rem {
+    font-size: 2rem;
+}
+
+.text_decoration-none {
+    text-decoration: none;
+}
+
+.opasity-70 {
+    opacity: 0.7;
+}
+
+.title {
+    color:var(--main-primary2-color);
+}
+
+.drop__list-element-style {
+    list-style-type: none;    
+}
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__justify_between {
+    justify-content: space-between;
+}
+
+.flex__justify_space-around {
+    justify-content: space-around;
+}
+
+.flex__justify_center {
+    justify-content: center;
+}
+
+.flex__justify_evenly {
+    justify-content: space-evenly;    
+}
+
+.flex__justify_self {    
+    justify-self: end;
+}
+
+.flex__items_center {
+    align-items: center;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.text-align_center {
+    text-align: center;
+}
+
+.gap_1-5rem {
+    gap: 1.5rem;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.box_shadow{    
+    box-shadow: inset -4px 0 5px -3px rgba(0,0,0,0.3);    width: 100%;
+}
+
+.background__transparent {
+    background-color: transparent;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-outline {
+    outline: none;
+}
+
+.margin-left__2rem {
+    margin-left: 3rem;
+}
+
+.margin-top__2rem {
+    margin-top: 2rem;
+}
+
+.background__primary3 {
+background-color: var(--main-primary3-color);
+}
+
+.background__white {
+    background-color: var(--main-white-color);
+}
+
+.slightly-desaturated-blue-color {
+    color: var(--main-slightly-desaturated-blue-color)
+}   
+
+.secondary-color {
+    color: var(--main-secondary-color)   
+}
+
+.green-color {
+    color: var(--main-green-color)   
+}
+
+.primary2-color {
+    color: var(--main-primary2-color)   
+}
+
+
+
+
+   
