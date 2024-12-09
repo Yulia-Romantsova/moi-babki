@@ -137,6 +137,10 @@
     outline: none;
 }
 
+.margin-right__3 { 
+    margin-right: 2rem;
+}
+
 .margin-left__2rem {
     margin-left: 3rem;
 }

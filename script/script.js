@@ -45,12 +45,19 @@ const ctx = document.getElementById('myChart');
         y: {
           beginAtZero: true,
           stacked: true,
+          grid: {
+            display: true,
+            
+          },
           ticks: {
             color: '#718EBF',
             fontSize: 50
         },          
         },
         x:{
+          grid: {
+            display: false
+          },
           ticks: {
             color: '#718EBF',
             fontSize: 50
@@ -140,8 +147,10 @@ new Chart(lineChartCtx, {
     tension: 0.5,    
     }]
   },
+  
     options: {
-      maintainAspectRatio: false,
+      maintainAspectRatio: false,      
+      responsive: true,
       layout: {
         padding: 13
     },
@@ -166,7 +175,7 @@ new Chart(lineChartCtx, {
           }
         }
     }
-  }  
+  }
   })
   
   

@@ -48,9 +48,11 @@
 
 .nav__menu {    
   position: fixed;
+  z-index: 1;
   height: 101%;
   width: 300px;
   top: 0;
+  background-color: var(--main-white-color);
   }
 
 .side__nav-list {
@@ -109,6 +111,7 @@ transition: all .5s linear;
 /* header */
 .header__style {   
   position: fixed; 
+  z-index: 2;
   width: calc(100% - 380px);
   height: 60px;
   margin-left: 300px;  
@@ -165,7 +168,7 @@ transition: all .5s linear;
 
 .card-white {
   padding: 25px;  
-  border-radius: 6px;  
+  border-radius: 25px;  
   height: 278px;
   color: var(--main-primary2-color);
   background-color: var(--main-white-color); 
@@ -178,7 +181,7 @@ transition: all .5s linear;
 
 .card-blue {  
   padding: 25px;  
-  border-radius: 6px; 
+  border-radius: 25px; 
   height: 278px;
   color: var(--main-white-color);
   background-color: var(--main-primary3-color);
@@ -191,7 +194,7 @@ transition: all .5s linear;
 /* Последние транзакции */
 .recent-transactions {  
   padding: 25px;  
-  border-radius: 6px;
+  border-radius: 25px;
   height: 278px;  
 } 
 
@@ -199,7 +202,7 @@ transition: all .5s linear;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr; 
   font-size: 1rem;     
-  border-radius: 6px;  
+  border-radius: 25px;  
   padding-top: 15px;  
   color:var(--main-primary2-color);
 } 
@@ -217,9 +220,8 @@ transition: all .5s linear;
 }
 
 /* Графики */
-.chartBox {  
-  width: 85%;
-  padding: 2rem;
+.chartBox {    
+  padding: 1.5rem;
   background-color: var(--main-white-color);  
   border-radius: 25px; 
 }
@@ -231,29 +233,36 @@ transition: all .5s linear;
 
 /* Еженедельный отчет */
 .weekly-activity__title {
-  display: grid;
-  grid-template-columns: 2fr 1fr; 
+  display: flex;
+  justify-content: space-between; 
   font-size: 1.2rem;
+  margin: 2rem 2rem 0 4rem;   
   margin-top: 2rem;
   color:var(--main-primary2-color);
 }
 
-.activity-and-statistics {
-  display: grid;
-  grid-template-columns: 2fr 1fr;   
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 37vh;
+  width: 49vw;
 }
+
+.chart-container_donut {
+  position: relative;
+  margin: auto;
+  height: 37vh;
+  width: 21vw;
+}
+
 /* Переводы */
 .transfer-and-balanceHistory__title {
-  display: grid;
-  grid-template-columns: 2fr 3fr; 
+  display: flex;
+  justify-content: space-between; 
   font-size: 1.2rem;
-  margin-top: 2rem;
+  margin: 2rem 2rem 0 4rem;
   color:var(--main-primary2-color);
-}
-
-.transfer-and-balanceHistory {
-  display: grid;
-  grid-template-columns: 2fr 3fr;   
 }
 
 .transfer {  
@@ -303,6 +312,13 @@ transition: all .5s linear;
 
 .button-send__icon {
   padding: 12px 18px 12px 0px;  
+}
+
+.chart-container_line {
+  position: relative;
+  margin: auto;
+  height: 30vh;
+  width: 47vw;
 }
 
 

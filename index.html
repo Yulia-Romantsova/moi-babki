@@ -369,7 +369,7 @@
              <section>
                 <div class="weekly-activity__title flex">
                     <div class=" margin-left__2rem">
-                        <span class="font_SemiBold">Еженедельный отчет</span>        
+                        <span class="font_SemiBold flex flex__justify_center">Еженедельный отчет</span>        
                     </div>
                     <div>
                         <span class="font_SemiBold margin-left__2rem flex flex__justify_center">Статистика расходов</span>        
@@ -377,17 +377,17 @@
                 </div>
              </section>
              <section>      
-                <div class="activity-and-statistics">                    
+                <div class="flex__justify_between flex">                    
                     <div class="margin-left__2rem margin-top__2rem">
                         <a class="text_decoration-none " href="#">                        
-                            <div style="height: 320px;" class="chartBox flex flex__justify_center">
+                            <div class="chartBox chart-container">
                                 <canvas class="" id="myChart"></canvas>
                             </div>                        
                         </a>
                     </div>        
-                    <div class="margin-left__2rem margin-top__2rem">
-                        <a class="text_decoration-none" href="#">
-                            <div style="height: 320px;" class="chartBox flex flex__justify_center" >
+                    <div class="margin-left__2rem margin-top__2rem ">
+                        <a class=" text_decoration-none" href="#">
+                            <div class="chartBox chart-container_donut " >
                                 <canvas class="" id="donutChart"></canvas>
                             </div> 
                         </a> 
@@ -396,19 +396,19 @@
              </section>
              <!-- Переводы и История баланса-->  
              <section>
-                <div class="transfer-and-balanceHistory__title">
-                    <div class=" margin-left__2rem">
-                        <span class="font_SemiBold">Переводы</span>        
+                <div class="transfer-and-balanceHistory__title ">
+                    <div>
+                        <span class="font_SemiBold ">Переводы</span>        
                     </div>
                     <div>
-                        <span class="font_SemiBold margin-left__2rem flex flex__justify_center">История баланса</span>        
+                        <span class="font_SemiBold">История баланса</span>        
                     </div>   
                 </div>
              </section>  
              <section>
-                <div class="transfer-and-balanceHistory ">
+                <div class="flex flex__justify_between">
                     <div class="transfer margin-left__2rem margin-top__2rem text-align_center flex flex_column flex__justify_space-around chartBox">
-                        <div class=" flex  font_inter-Light  flex__items_center flex__justify_between ">
+                        <div class=" flex  font_inter-Light  flex__justify_between ">
                         <div>
                             <img class="transfer__avatar" src="assets/img/transfer/Father.jpg" alt="">
                             <div>
@@ -430,13 +430,13 @@
                                 <p class="slightly-desaturated-blue-color">Кот</p> 
                             </div>                              
                         </div>
-                        <div>
+                        <div class="flex flex__items_center ">
                             <button class="cursor_pointer flex flex__items_center no-border arrow-style chartBox "><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                         </div>                               
                     </div>
                 <div class="flex flex__items_center flex__justify_between">
-                    <div>
-                        <p class="slightly-desaturated-blue-color font_inter-Light margin-left__2rem">Введите Сумму</p>          
+                    <div class="margin-right__3 flexflex__items_center ">
+                        <p class="slightly-desaturated-blue-color font_inter-Light ">Введите Сумму</p>          
                     </div>
                     <div class="relative">
                         <input placeholder="1500 р" class="font_inter-Light no-border no-outline transfer-input opasity-70 " type="text">
@@ -449,7 +449,7 @@
                 </div>         
                     <div class="margin-left__2rem margin-top__2rem">
                         <a class=" balance-history text_decoration-none " href="#">                        
-                            <div style="height: 275px;" class="chartBox  flex__justify_center">
+                            <div  class="chartBox chart-container_line">
                                 <canvas class="" id="lineChart"></canvas>
                             </div>                        
                             </a>
